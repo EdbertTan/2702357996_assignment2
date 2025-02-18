@@ -128,10 +128,6 @@
 	border-radius: 50%;
 	}
 
-	.checked {
-	color: orange;
-	}
-
 
 	/* Use a media query to add a break point at 800px: */
 	@media screen and (max-width: 800px) {
@@ -253,15 +249,25 @@
 			<input type="checkbox">
 			<span class="slider round"></span>
 			</label>
-			<br><br>
-			<h2>Star Rating</h2>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span>
-			<br><br>
-			</td></tr>
+			<br><br></td></tr>
+		</p>
+		<p>
+		<h2>fan speed and Mode</h2>
+		<form action="/action_page.php">
+			<label for="speed">rating:</label>
+			<input type="text" id="speed" name="speed">
+			<p>mode:</p>
+			<input type="radio" id="mode1" name="mode" value="1/5">
+			<label for="mode1">auto</label><br>
+			<input type="radio" id="mode2" name="mode" value="2/5">
+			<label for="mode2">cool</label><br>
+			<input type="radio" id="mode3" name="mode" value="3/5">
+			<label for="mode3">dry</label><br><br>
+			<input type="radio" id="mode3" name="mode" value="4/5">
+			<label for="mode3">dry</label><br><br>
+			<input type="radio" id="mode3" name="mode" value="5/5">
+			<label for="mode3">dry</label><br><br>
+		</form>
 		</p>
 	</div>
 
